@@ -1,4 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
 }

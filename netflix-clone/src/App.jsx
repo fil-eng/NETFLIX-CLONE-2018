@@ -1,11 +1,11 @@
 import "./App.css";
 
-import React from "react";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div>
-      <h1>NETFLIX CLONE </h1>
+      <Home />
     </div>
   );
 }
