@@ -2,6 +2,7 @@ import NetflixLoge from "../../assets/imags/logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MenuIcon from "@mui/icons-material/Menu";
 import styles from "./Header.module.css";
 function Header() {
@@ -22,16 +23,16 @@ function Header() {
         </div>
         <div className={styles.rightSide}>
           <li>
-            {" "}
             <SearchIcon />
           </li>
           <li>
-            {" "}
             <NotificationsNoneIcon />
           </li>
           <li>
-            {" "}
             <AccountBoxIcon />
+          </li>
+          <li>
+            <ArrowDropDownIcon />
           </li>
         </div>
         <div className={styles.humberger}>
