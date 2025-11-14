@@ -1,6 +1,6 @@
 .header_outer {
   background-color: transparent;
-  /* background-color: red; */
+  background-color: black;
   position: sticky;
   top: 0;
   right: 0;
@@ -17,14 +17,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-top: 5px; */
+  /* padding: 5px; */
 }
 .lefttSide {
   display: flex;
   justify-content: space-between;
 }
 .lefttSide .logo img {
-  width: 150px;
+  width: 120px;
 }
 .lefttSide ul {
   display: flex;

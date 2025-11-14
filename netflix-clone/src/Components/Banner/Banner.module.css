@@ -1,0 +1,39 @@
+.hero_wrapper {
+  margin-bottom: 10px;
+}
+.heroSection {
+  display: flex;
+  align-items: center;
+}
+
+.playlist_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-left: 50px;
+}
+.buttons button {
+  padding: 15px 35px;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.list {
+  margin-left: 0.5em;
+  background-color: rgba(211, 206, 225, 0.3); /* background with transparent*/
+}
+.overview {
+  max-width: 350px;
+}
+/* background shadow*/
+.bottomshadow {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(37, 37, 37, 0.91),
+    #111
+  );
+  height: 12vh;
+  margin-top: -12vh;
+}
