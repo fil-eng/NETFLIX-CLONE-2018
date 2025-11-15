@@ -65,13 +65,7 @@ function Row({ title, fetchURL, isTrue }) {
           ))}
         </div>
       )}
-      <div>
-        {Trailers ? (
-          <YouTube videoId={Trailers} opts={opts} />
-        ) : (
-          { }
-        )}
-      </div>
+      <div>{Trailers && <YouTube videoId={Trailers} opts={opts} />}</div>
     </div>
   );
 }
