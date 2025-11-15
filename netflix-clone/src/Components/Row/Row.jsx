@@ -69,7 +69,7 @@ function Row({ title, fetchURL, isTrue }) {
         {Trailers ? (
           <YouTube videoId={Trailers} opts={opts} />
         ) : (
-          <p>No trailer available.</p>
+          { }
         )}
       </div>
     </div>
