@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
+  
+}
+:root {
+  interpolate-size: allow-keywords;
 }
 body {
   background-color: black;
@@ -13,4 +17,7 @@ li {
 }
 a {
   text-decoration: none;
+}
+*::-webkit-scrollbar {
+  display: none;
 }

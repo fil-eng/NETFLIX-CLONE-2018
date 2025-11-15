@@ -1,0 +1,32 @@
+.rowSection {
+  padding: 10px;
+}
+
+h2 {
+  margin: 10px 40px;
+}
+.Row {
+  display: flex;
+  gap: 0.5em;
+  overflow-x: scroll;
+  margin-top: 10px;
+  /* flex-direction: column; */
+}
+
+.backdrop {
+  width: 200px;
+  max-height: 200px;
+  transition: transform 0.7s; /* Animation */
+  cursor: pointer;
+}
+
+.poster {
+  width: 280px;
+  max-height: 330px;
+  transition: transform 0.7s; /* Animation */
+  cursor: pointer;
+}
+.backdrop:hover,
+.poster:hover {
+  transform: scale(1.2); /* Adjust the scale value for desired zoom level */
+}

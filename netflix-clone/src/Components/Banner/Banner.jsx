@@ -32,7 +32,7 @@ function Banner() {
       <div
         style={{
           backgroundImage: `url(
-          https://image.tmdb.org/t/p/w500/${movie.backdrop_path}
+          https://image.tmdb.org/t/p/original/${movie.backdrop_path}
         )`,
           width: "100%",
           height: "400px",
